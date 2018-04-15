@@ -18,7 +18,7 @@ def take_a_number(katz_deli,customer)
   puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
 end #def
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.length != 0
     puts "Currently serving #{katz_deli.first}."
     katz_deli.shift
