@@ -12,7 +12,7 @@ def line (katz_deli)
 end
 end #def
 
-def take_a_num(katz_deli,customer)
+def take_a_number(katz_deli,customer)
   katz_deli << customer
   katz_deli.length
   puts "Welcome, #{customer}.You are #{katz_deli.length+1} in line."
